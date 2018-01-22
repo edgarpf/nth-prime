@@ -1,0 +1,27 @@
+{
+  "name": "nth-prime",
+  "version": "1.0.1",
+  "description": "A simple function that returns the nth prime number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarpf/nth-prime.git"
+  },
+  "keywords": [
+    "prime",
+    "nth-prime",
+    "number"
+  ],
+  "author": "edgarpf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edgarpf/nth-prime/issues"
+  },
+  "homepage": "https://github.com/edgarpf/nth-prime#readme",
+  "dependencies": {
+    "is-prime": "^1.0.1"
+  }
+}
