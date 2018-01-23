@@ -4,7 +4,7 @@
   "description": "A simple function that returns the nth prime number",
   "main": "index.js",
   "scripts": {
-    "test": "npm i && node test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
