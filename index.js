@@ -7,6 +7,10 @@ module.exports = function(n) {
 		return 2;
 	}
 	
+	return checkIfIsPrime(position, n);
+}
+	
+function checkIfIsPrime(position, n){
 	for(var i=3;;i+=2){
 		if(isPrime(i)){
 			position++;			
@@ -14,8 +18,6 @@ module.exports = function(n) {
 				return i;
 			}
 		}
-				
 	}
 }
-	
 
