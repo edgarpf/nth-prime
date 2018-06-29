@@ -12,12 +12,12 @@ module.exports = function(n) {
 	
 function checkIfIsPrime(position, n){
 	for(var i=3;;i+=2){
-		if(isPrime(i)){
+		var prime = isPrime(i);
+		if(prime){
 			position++;			
-			if(position == n){
-				return i;
-			}
+		}
+		if(prime && position == n){
+			return i;
 		}
 	}
 }
-
