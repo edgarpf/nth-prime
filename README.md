@@ -1,4 +1,5 @@
-# nth-prime [![Build Status](https://travis-ci.org/edgarpf/nth-prime.svg?branch=master)](https://travis-ci.org/edgarpf/nth-prime)
+# nth-prime [![Build Status](https://travis-ci.org/edgarpf/nth-prime.svg?branch=master)](https://travis-ci.org/edgarpf/nth-prime) 
+ [![codecov](https://codecov.io/gh/edgarpf/nth-prime/branch/master/graph/badge.svg)](https://codecov.io/gh/edgarpf/nth-prime)
 A simple npm package with a function that returns the nth prime number.
 
 ## Installation
