@@ -13,11 +13,13 @@ module.exports = function(n) {
 function checkIfIsPrime(position, n){
 	for(var i=3;;i+=2){
 		var prime = isPrime(i);
-		if(prime){
-			position++;			
-		}
+		position = incrementPosition(prime, position);
 		if(prime && position == n){
 			return i;
 		}
 	}
+}
+
+function incrementPosition(prime, position){
+	return prime? ++position : position;
 }
